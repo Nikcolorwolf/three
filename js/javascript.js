@@ -3,8 +3,8 @@ $(document).ready(function(){
         speed: 1200,
         slidesToShow: 1,
         //adaptiveHeight: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../icon/left-solid.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../icon/right-solid.png"></button>'
+        prevArrow: '<button type="button" class="slick-prev"><img src="icon/left-solid.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icon/right-solid.png"></button>'
     });
 
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
